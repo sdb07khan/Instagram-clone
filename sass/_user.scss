@@ -1,0 +1,52 @@
+.user {
+    grid-column: 7 / -1;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    margin-top: 8rem;
+
+    @media only screen and (max-width: $bp-large) {
+        display: none;
+    }
+
+
+    &__img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    &__text {
+        margin-left: 1.5rem;
+
+        &--id {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--grey-7);
+            cursor: pointer;
+        }
+
+
+        &--name {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: var(--grey-4);
+            text-transform: uppercase;
+        }
+    }
+
+    .btn {
+        border: none;
+        margin-left: 9.2rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: var(--blue-3);
+
+        &:hover {
+            color: var(--blue-5);
+        }
+    }
+}

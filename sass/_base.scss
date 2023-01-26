@@ -1,0 +1,82 @@
+// COLOR VARIABLES
+
+:root {
+    --blue-1: #b3dbff;
+    --blue-2: #47afff;
+    --blue-3: #0095f6;
+    --blue-4: #0074cc;
+    --blue-5: #0057a3;
+    --blue-6: #002952;
+
+    --grey-0: #f5f5f5;
+    --grey-1: #efefef;
+    --grey-2: #dbdbdb;
+    --grey-3: #a8a8a8;
+    --grey-4: #8e8e8e;
+    --grey-5: #737373;
+    --grey-6: #363636;
+    --grey-7: #262626;
+    
+    --gradient-lavender: #d300c5;
+    --gradient-orange: #ff7a00;
+    --gradient-pink: #ff0169;
+    --gradient-purple: #7638fa;
+    --gradient-yellow: #ffd600;
+
+    --green-1: #78de45;
+    --green-2: #58c322;
+    --green-3: #37a600;
+
+    --red-1: #ff6874;
+    --red-2: #ed4956;
+    --red-3: #c62330;
+    --red-4: #a70311;
+
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+}
+
+//FONT VARIABLES
+$font-primary: 'Roboto', sans-serif;
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em;    //1200px
+$bp-large: 62.5em;    //1000px
+$bp-medium: 46.875em;   //750px
+$bp-small: 31.25em;     //500px
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-primary;
+    background-color: white;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.heading-3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--grey-7);
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, minmax(min-content)); 
+}
