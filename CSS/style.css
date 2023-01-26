@@ -242,7 +242,8 @@ body {
     font-size: 1.1rem;
     color: var(--grey-3);
     cursor: pointer;
-    transition: all .5s; }
+    transition: all .5s;
+    text-decoration: none; }
     .footer__cta--btn:hover {
       text-decoration: underline; }
     .footer__cta--btn .span {
@@ -501,7 +502,8 @@ body {
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--blue-3); }
+    color: var(--blue-3);
+    text-decoration: none; }
     .suggestions .btn:hover {
       color: var(--blue-5); }
   .suggestions .btn--see-all {
@@ -544,6 +546,7 @@ body {
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--blue-3); }
+    color: var(--blue-3);
+    text-decoration: none; }
     .user .btn:hover {
       color: var(--blue-5); }
